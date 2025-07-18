@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B86E05D2E2A2633003F684D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B86E0552E2A2633003F684D /* LaunchScreen.storyboard */; };
+		2B86E05E2E2A2633003F684D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B86E0522E2A2633003F684D /* Assets.xcassets */; };
+		2B86E0602E2A2633003F684D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E0582E2A2633003F684D /* SceneDelegate.m */; };
+		2B86E0692E2A2633003F684D /* Kitty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E0402E2A2633003F684D /* Kitty.swift */; };
+		2B86E06B2E2A2633003F684D /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E0482E2A2633003F684D /* Teacher.m */; };
+		2B86E06C2E2A2633003F684D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E0512E2A2633003F684D /* AppDelegate.m */; };
+		2B86E06D2E2A2633003F684D /* PXLLeakTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E0592E2A2633003F684D /* PXLLeakTestViewController.swift */; };
+		2B86E06E2E2A2633003F684D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E0452E2A2633003F684D /* Student.m */; };
+		2B86E06F2E2A2633003F684D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E0562E2A2633003F684D /* main.m */; };
+		2B86E0722E2A2633003F684D /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E03E2E2A2633003F684D /* Animal.swift */; };
+		2B86E0732E2A2633003F684D /* SwiftContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E0462E2A2633003F684D /* SwiftContainer.swift */; };
+		2B86E0742E2A2633003F684D /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E03F2E2A2633003F684D /* Dog.swift */; };
+		2B86E0762E2A2633003F684D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E0432E2A2633003F684D /* Person.m */; };
+		2B86E0782E2A2633003F684D /* PXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86E05B2E2A2633003F684D /* PXLViewController.m */; };
+		FDB4DE5615104126D07F2B02 /* Pods_PXLMemoryGraph_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5745943A32D8482FEE679C69 /* Pods_PXLMemoryGraph_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11CF2EA861A778D55A2B22D0 /* Pods-PXLMemoryGraph_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXLMemoryGraph_Example.debug.xcconfig"; path = "Target Support Files/Pods-PXLMemoryGraph_Example/Pods-PXLMemoryGraph_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2B86E03E2E2A2633003F684D /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		2B86E03F2E2A2633003F684D /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		2B86E0402E2A2633003F684D /* Kitty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitty.swift; sourceTree = "<group>"; };
+		2B86E0422E2A2633003F684D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2B86E0432E2A2633003F684D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2B86E0442E2A2633003F684D /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		2B86E0452E2A2633003F684D /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		2B86E0462E2A2633003F684D /* SwiftContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContainer.swift; sourceTree = "<group>"; };
+		2B86E0472E2A2633003F684D /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		2B86E0482E2A2633003F684D /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		2B86E0492E2A2633003F684D /* TestingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingProtocol.h; sourceTree = "<group>"; };
+		2B86E0502E2A2633003F684D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B86E0512E2A2633003F684D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B86E0522E2A2633003F684D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B86E0532E2A2633003F684D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B86E0542E2A2633003F684D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B86E0562E2A2633003F684D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B86E0572E2A2633003F684D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2B86E0582E2A2633003F684D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2B86E0592E2A2633003F684D /* PXLLeakTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PXLLeakTestViewController.swift; sourceTree = "<group>"; };
+		2B86E05A2E2A2633003F684D /* PXLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXLViewController.h; sourceTree = "<group>"; };
+		2B86E05B2E2A2633003F684D /* PXLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXLViewController.m; sourceTree = "<group>"; };
+		2B86E2D52E2A2D66003F684D /* PXLMemoryGraph_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXLMemoryGraph_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		5745943A32D8482FEE679C69 /* Pods_PXLMemoryGraph_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXLMemoryGraph_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		630F2D5C250504FC0052C749 /* PXLMemoryGraph_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXLMemoryGraph_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5ED79FA2B8D6BE386CC78D /* Pods-PXLMemoryGraph_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXLMemoryGraph_Example.release.xcconfig"; path = "Target Support Files/Pods-PXLMemoryGraph_Example/Pods-PXLMemoryGraph_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630F2D59250504FC0052C749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB4DE5615104126D07F2B02 /* Pods_PXLMemoryGraph_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B86E04A2E2A2633003F684D /* Test models */ = {
+			isa = PBXGroup;
+			children = (
+				2B86E03E2E2A2633003F684D /* Animal.swift */,
+				2B86E03F2E2A2633003F684D /* Dog.swift */,
+				2B86E0402E2A2633003F684D /* Kitty.swift */,
+				2B86E0422E2A2633003F684D /* Person.h */,
+				2B86E0432E2A2633003F684D /* Person.m */,
+				2B86E0442E2A2633003F684D /* Student.h */,
+				2B86E0452E2A2633003F684D /* Student.m */,
+				2B86E0462E2A2633003F684D /* SwiftContainer.swift */,
+				2B86E0472E2A2633003F684D /* Teacher.h */,
+				2B86E0482E2A2633003F684D /* Teacher.m */,
+				2B86E0492E2A2633003F684D /* TestingProtocol.h */,
+			);
+			path = "Test models";
+			sourceTree = "<group>";
+		};
+		2B86E05C2E2A2633003F684D /* PXLMemoryGraph_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B86E04A2E2A2633003F684D /* Test models */,
+				2B86E0502E2A2633003F684D /* AppDelegate.h */,
+				2B86E0512E2A2633003F684D /* AppDelegate.m */,
+				2B86E0522E2A2633003F684D /* Assets.xcassets */,
+				2B86E0532E2A2633003F684D /* Info.plist */,
+				2B86E0552E2A2633003F684D /* LaunchScreen.storyboard */,
+				2B86E0562E2A2633003F684D /* main.m */,
+				2B86E0572E2A2633003F684D /* SceneDelegate.h */,
+				2B86E0582E2A2633003F684D /* SceneDelegate.m */,
+				2B86E0592E2A2633003F684D /* PXLLeakTestViewController.swift */,
+				2B86E05A2E2A2633003F684D /* PXLViewController.h */,
+				2B86E05B2E2A2633003F684D /* PXLViewController.m */,
+				2B86E2D52E2A2D66003F684D /* PXLMemoryGraph_Example-Bridging-Header.h */,
+			);
+			path = PXLMemoryGraph_Example;
+			sourceTree = "<group>";
+		};
+		40F390FDC74FD74EE5400481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5745943A32D8482FEE679C69 /* Pods_PXLMemoryGraph_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		630F2D53250504FC0052C749 = {
+			isa = PBXGroup;
+			children = (
+				2B86E05C2E2A2633003F684D /* PXLMemoryGraph_Example */,
+				630F2D5D250504FC0052C749 /* Products */,
+				6B6AD5E702D4349D84EB3D68 /* Pods */,
+				40F390FDC74FD74EE5400481 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		630F2D5D250504FC0052C749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630F2D5C250504FC0052C749 /* PXLMemoryGraph_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B6AD5E702D4349D84EB3D68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11CF2EA861A778D55A2B22D0 /* Pods-PXLMemoryGraph_Example.debug.xcconfig */,
+				9D5ED79FA2B8D6BE386CC78D /* Pods-PXLMemoryGraph_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630F2D5B250504FC0052C749 /* PXLMemoryGraph_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630F2D75250505020052C749 /* Build configuration list for PBXNativeTarget "PXLMemoryGraph_Example" */;
+			buildPhases = (
+				70C1F9375387BA4BC8E6DB36 /* [CP] Check Pods Manifest.lock */,
+				630F2D58250504FC0052C749 /* Sources */,
+				630F2D59250504FC0052C749 /* Frameworks */,
+				630F2D5A250504FC0052C749 /* Resources */,
+				F3AF330D9362F197D9E9D665 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXLMemoryGraph_Example;
+			productName = MemoryGraph;
+			productReference = 630F2D5C250504FC0052C749 /* PXLMemoryGraph_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630F2D54250504FC0052C749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "David Grigoryan";
+				TargetAttributes = {
+					630F2D5B250504FC0052C749 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = 630F2D57250504FC0052C749 /* Build configuration list for PBXProject "PXLMemoryGraph_Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 630F2D53250504FC0052C749;
+			productRefGroup = 630F2D5D250504FC0052C749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630F2D5B250504FC0052C749 /* PXLMemoryGraph_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630F2D5A250504FC0052C749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B86E05D2E2A2633003F684D /* LaunchScreen.storyboard in Resources */,
+				2B86E05E2E2A2633003F684D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70C1F9375387BA4BC8E6DB36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PXLMemoryGraph_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AF330D9362F197D9E9D665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PXLMemoryGraph_Example/Pods-PXLMemoryGraph_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PXLMemoryGraph_Example/Pods-PXLMemoryGraph_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PXLMemoryGraph_Example/Pods-PXLMemoryGraph_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630F2D58250504FC0052C749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B86E0602E2A2633003F684D /* SceneDelegate.m in Sources */,
+				2B86E0692E2A2633003F684D /* Kitty.swift in Sources */,
+				2B86E06B2E2A2633003F684D /* Teacher.m in Sources */,
+				2B86E06C2E2A2633003F684D /* AppDelegate.m in Sources */,
+				2B86E06D2E2A2633003F684D /* PXLLeakTestViewController.swift in Sources */,
+				2B86E06E2E2A2633003F684D /* Student.m in Sources */,
+				2B86E06F2E2A2633003F684D /* main.m in Sources */,
+				2B86E0722E2A2633003F684D /* Animal.swift in Sources */,
+				2B86E0732E2A2633003F684D /* SwiftContainer.swift in Sources */,
+				2B86E0742E2A2633003F684D /* Dog.swift in Sources */,
+				2B86E0762E2A2633003F684D /* Person.m in Sources */,
+				2B86E0782E2A2633003F684D /* PXLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B86E0552E2A2633003F684D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B86E0542E2A2633003F684D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630F2D73250505020052C749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		630F2D74250505020052C749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630F2D76250505020052C749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CF2EA861A778D55A2B22D0 /* Pods-PXLMemoryGraph_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG256MA2SR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = PXLMemoryGraph_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.fengchiwei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PXLMemoryGraph_Example/PXLMemoryGraph_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		630F2D77250505020052C749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5ED79FA2B8D6BE386CC78D /* Pods-PXLMemoryGraph_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG256MA2SR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = PXLMemoryGraph_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.fengchiwei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PXLMemoryGraph_Example/PXLMemoryGraph_Example-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630F2D57250504FC0052C749 /* Build configuration list for PBXProject "PXLMemoryGraph_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630F2D73250505020052C749 /* Debug */,
+				630F2D74250505020052C749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630F2D75250505020052C749 /* Build configuration list for PBXNativeTarget "PXLMemoryGraph_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630F2D76250505020052C749 /* Debug */,
+				630F2D77250505020052C749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630F2D54250504FC0052C749 /* Project object */;
+}

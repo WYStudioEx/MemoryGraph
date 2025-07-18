@@ -1,0 +1,23 @@
+{
+  "name": "PXLMemoryGraph",
+  "version": "1.0.6",
+  "summary": "A short description of PXLMemoryGraph.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://techgit.meitu.com/GPIG/PXLMemoryGraph",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fengchiwei": "chiwei.feng@pixocial.com"
+  },
+  "source": {
+    "git": "git@techgit.meitu.com:GPIG/PXLMemoryGraph.git",
+    "tag": "1.0.6"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "PXLMemoryGraph/Sources/**/*.{h,m,mm,c}",
+  "public_header_files": "PXLMemoryGraph/Sources/Public/*.h"
+}

@@ -1,0 +1,6 @@
+framework module Pods_PXLMemoryGraph_Example {
+  umbrella header "Pods-PXLMemoryGraph_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module PXLMemoryGraph {
+  umbrella header "PXLMemoryGraph-umbrella.h"
+
+  export *
+  module * { export * }
+}

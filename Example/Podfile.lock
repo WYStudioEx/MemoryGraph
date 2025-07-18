@@ -1,0 +1,16 @@
+PODS:
+  - PXLMemoryGraph (1.0.6)
+
+DEPENDENCIES:
+  - PXLMemoryGraph (from `../`)
+
+EXTERNAL SOURCES:
+  PXLMemoryGraph:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PXLMemoryGraph: 14261dd38661e200a7cd48c9daaec20176620d06
+
+PODFILE CHECKSUM: 67e891a5c34978e9fe4c8c96d5ec8f80015bf995
+
+COCOAPODS: 1.16.2

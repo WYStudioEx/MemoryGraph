@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CEE2077D1D3B98CCE68743B3C73232D /* IntrospectionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F288A7CDEB523151C952D1197DBFEFB /* IntrospectionFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17CDDD10D9AF98E28B6B879338CCCE70 /* PXLMemoryService.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B787DE8955130BFA58F916329F0358 /* PXLMemoryService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34AB68AB37C28173737828483E2B5F50 /* NSObject+Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EF9FF5F74B2836B80B1EF9222B378C /* NSObject+Collection.m */; };
+		3963B4B52BCCCB1BD5110C2FCFF62E2C /* NodeContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EAEC5876E7F72AB6615BEE0AE2F6E6 /* NodeContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		399BCA27697D0418BF557C6DC7B1FE1C /* PXLMemoryGraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ECDB6E8D85C4EA196BB1FC99C41F28 /* PXLMemoryGraph-dummy.m */; };
+		4584AC0934F808D16DD95106A5FF63D4 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 19859233ED5A3A5AB41EC1BCB795EE4C /* Graph.m */; };
+		4890DE66C3AB062D86071E40F0895673 /* SwiftIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 45202E307D8E0EDD6F0A2C9FC22857F8 /* SwiftIntrospection.m */; };
+		5940F0928EB39B015313603154E024E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		60C78863B0E6AF1AD57B6CFABD41EC33 /* MemoryValidator.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3DC2AF4854CDB695F95214CC6D5FA4 /* MemoryValidator.c */; };
+		61DF23D08322BAF998C64582677DA06F /* MemoryObjectIntrospection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B749F5D5FCAB3E30795CECD2D1CB982 /* MemoryObjectIntrospection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A8550326E88A6F4DEFD27FB3A1663F0 /* MemoryReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E550D719D180ECB265B4E921F51ECA /* MemoryReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A6343B29561FD9E6DA5F4B40CCC55BF /* NSObject+Collection.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A735B622FD9275ADDF693F6A8D06C2 /* NSObject+Collection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B0AEAD63366297FD0A4EECED7AF5CF0 /* ObjcIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = AF872D575AA5DE4080F95461E193AC89 /* ObjcIntrospection.m */; };
+		84C8894E3786E9752D82D48F04999C26 /* ObjcIntrospection.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9D44AF98E5D11AA561F4BE85D83CC9 /* ObjcIntrospection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85A58755C3D88C115E6B2E15A8F8186F /* MemoryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B57B400DAAD817882CAD9EAD696346 /* MemoryObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CD1BEF250B0CEDDBCEC39441D3B68FF /* MemoryObjectIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = D07E7594277ED20E44A646D2D4E98593 /* MemoryObjectIntrospection.m */; };
+		939D9E0C0FACD84DF1C2AA429829ADFC /* MemoryObjectRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63859CA95F245A6457929FBEC7D5692B /* MemoryObjectRequest.m */; };
+		93FFF72F226A1DCE495D8CAC47082524 /* PXLMemoryGraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64EDC074C5967103CC6C153E7B41640F /* PXLMemoryGraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		940AF9EF6F1F3CDBE68E1151B192AC11 /* Inspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C2840BB02E0A713159639D2F29315E /* Inspectable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C6AA613DFA434CDD3E6593F0AB41B1F /* PXLMemoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2FAC6AAE59E2D7386DB57AFD4EB215 /* PXLMemoryService.m */; };
+		A7DB558CCE2335A641B5E498EB0D369D /* Pods-PXLMemoryGraph_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1432849D7A3AA117D77FEC09341043C1 /* Pods-PXLMemoryGraph_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC0966E30E852CC88A31AE46618BE434 /* SwiftIntrospection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E98A9973184197B2C5085C1A0305193 /* SwiftIntrospection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B014CB8B3CF6DB40CBC655BECA9765CC /* IntrospectionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE215D44302D43D9CADB7E8F06F5842 /* IntrospectionResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B050A81B54E4AC9D6148A2455A09CB9C /* Graph.h in Headers */ = {isa = PBXBuildFile; fileRef = EE788828ECFE410D19B53EC958619C71 /* Graph.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B164AB9ED478E7EF0D1982B02843FAAC /* IntrospectionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAD0C3CDCB3C8D900B022C4B3A60AA6 /* IntrospectionFactory.m */; };
+		BAB524A1AE403A3FDDD2C33CCF45302F /* MemoryObjectRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B253796852F664AE84106E62184A7293 /* MemoryObjectRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C05DD148E20AAFACEC19AB273EAC20FA /* MemoryReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DF9DD8D2F9F0221E22FD8C3AD0C443 /* MemoryReader.m */; };
+		C133F920ABC14AE37697358E27BAE53C /* MemoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EDEE5D58A06EE4ACE6D564F7068742 /* MemoryObject.m */; };
+		C1D4541AACE27163E9A34B0A329F382B /* Pods-PXLMemoryGraph_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5602A8A3ECB3DB5CF49F1CF5C04704C /* Pods-PXLMemoryGraph_Example-dummy.m */; };
+		C4254176D5E9ECF49323B0BF0AE0163E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D211C172C678BC6B9F247E7B576CB926 /* NodeContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4708E204B25848FACDDB487FB8985891 /* NodeContainer.m */; };
+		D7DE890574316502B82DC9F9FE5688A0 /* NodeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C7D3BE37EBDBC867C5BDB7A209827D /* NodeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1476FDCD4BC66B4A69CC1487B0ACF74 /* MemoryValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 498DA3E689AA086B17B88E26711AB6D0 /* MemoryValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB66A45CDCB1F593835CBCAB96051B39 /* IntrospectionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD6940CECAC4AF1B3BA9E4C3F023BAE /* IntrospectionResult.m */; };
+		FC266DC2E684226F6DE39016BE4430CE /* IntrospectionResult+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF60086D8BD43233E7EF86F0F278E8E /* IntrospectionResult+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75CF6261A9057788976CBADA9D3D5284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A63B7172B7BA4C2D79720A72F610F90D;
+			remoteInfo = PXLMemoryGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B749F5D5FCAB3E30795CECD2D1CB982 /* MemoryObjectIntrospection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MemoryObjectIntrospection.h; sourceTree = "<group>"; };
+		0BE215D44302D43D9CADB7E8F06F5842 /* IntrospectionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IntrospectionResult.h; sourceTree = "<group>"; };
+		1432849D7A3AA117D77FEC09341043C1 /* Pods-PXLMemoryGraph_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXLMemoryGraph_Example-umbrella.h"; sourceTree = "<group>"; };
+		19859233ED5A3A5AB41EC1BCB795EE4C /* Graph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		1E98A9973184197B2C5085C1A0305193 /* SwiftIntrospection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwiftIntrospection.h; sourceTree = "<group>"; };
+		20A8A3FF49C991B8FDCCE3DDBE143F22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		24EF9FF5F74B2836B80B1EF9222B378C /* NSObject+Collection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Collection.m"; sourceTree = "<group>"; };
+		2BD6940CECAC4AF1B3BA9E4C3F023BAE /* IntrospectionResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IntrospectionResult.m; sourceTree = "<group>"; };
+		2E0EE436DC06F0400D44C3123AF7FAA7 /* PXLMemoryGraph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXLMemoryGraph.release.xcconfig; sourceTree = "<group>"; };
+		35E550D719D180ECB265B4E921F51ECA /* MemoryReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MemoryReader.h; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CC92F2A700AD51BE3B0A4A6E34B2EE5 /* PXLMemoryGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXLMemoryGraph.debug.xcconfig; sourceTree = "<group>"; };
+		45202E307D8E0EDD6F0A2C9FC22857F8 /* SwiftIntrospection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwiftIntrospection.m; sourceTree = "<group>"; };
+		4708E204B25848FACDDB487FB8985891 /* NodeContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NodeContainer.m; sourceTree = "<group>"; };
+		498DA3E689AA086B17B88E26711AB6D0 /* MemoryValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MemoryValidator.h; sourceTree = "<group>"; };
+		4B3FB442E372FED61543EB3219D2D9BA /* PXLMemoryGraph-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXLMemoryGraph-Info.plist"; sourceTree = "<group>"; };
+		4F288A7CDEB523151C952D1197DBFEFB /* IntrospectionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IntrospectionFactory.h; sourceTree = "<group>"; };
+		5B604D4DA669FAA7E42F2A6AD13F14BA /* PXLMemoryGraph */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXLMemoryGraph; path = PXLMemoryGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63859CA95F245A6457929FBEC7D5692B /* MemoryObjectRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MemoryObjectRequest.m; sourceTree = "<group>"; };
+		64EDC074C5967103CC6C153E7B41640F /* PXLMemoryGraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXLMemoryGraph-umbrella.h"; sourceTree = "<group>"; };
+		65A735B622FD9275ADDF693F6A8D06C2 /* NSObject+Collection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Collection.h"; sourceTree = "<group>"; };
+		661B58200B0C57842416E768AE022855 /* Pods-PXLMemoryGraph_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXLMemoryGraph_Example-Info.plist"; sourceTree = "<group>"; };
+		67EDEE5D58A06EE4ACE6D564F7068742 /* MemoryObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MemoryObject.m; sourceTree = "<group>"; };
+		714D5FD1285944DB746EB34B36BBD8C3 /* PXLMemoryGraph.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PXLMemoryGraph.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87B57B400DAAD817882CAD9EAD696346 /* MemoryObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MemoryObject.h; sourceTree = "<group>"; };
+		8925E2713F520351CC6B350F03A1B49F /* Pods-PXLMemoryGraph_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXLMemoryGraph_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90D451FC46284ADB44A0D6E06433FC4C /* PXLMemoryGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXLMemoryGraph.modulemap; sourceTree = "<group>"; };
+		91B707C1FBC07F1085D9B2ED43549167 /* Pods-PXLMemoryGraph_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PXLMemoryGraph_Example.modulemap"; sourceTree = "<group>"; };
+		93C2840BB02E0A713159639D2F29315E /* Inspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Inspectable.h; sourceTree = "<group>"; };
+		99F9D828FA89648735295AB16D33D389 /* Pods-PXLMemoryGraph_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXLMemoryGraph_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4EAEC5876E7F72AB6615BEE0AE2F6E6 /* NodeContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NodeContainer.h; sourceTree = "<group>"; };
+		A5ECDB6E8D85C4EA196BB1FC99C41F28 /* PXLMemoryGraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXLMemoryGraph-dummy.m"; sourceTree = "<group>"; };
+		AF872D575AA5DE4080F95461E193AC89 /* ObjcIntrospection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ObjcIntrospection.m; sourceTree = "<group>"; };
+		B253796852F664AE84106E62184A7293 /* MemoryObjectRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MemoryObjectRequest.h; sourceTree = "<group>"; };
+		B4DF9DD8D2F9F0221E22FD8C3AD0C443 /* MemoryReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MemoryReader.m; sourceTree = "<group>"; };
+		BAC595C41F643FD573E89F1F608458FB /* Pods-PXLMemoryGraph_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXLMemoryGraph_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB9D44AF98E5D11AA561F4BE85D83CC9 /* ObjcIntrospection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObjcIntrospection.h; sourceTree = "<group>"; };
+		BFF60086D8BD43233E7EF86F0F278E8E /* IntrospectionResult+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IntrospectionResult+Private.h"; sourceTree = "<group>"; };
+		C62C156971894CEAF3A31BC4747CF539 /* PXLMemoryGraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXLMemoryGraph-prefix.pch"; sourceTree = "<group>"; };
+		C7C7D3BE37EBDBC867C5BDB7A209827D /* NodeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NodeProtocol.h; sourceTree = "<group>"; };
+		D07E7594277ED20E44A646D2D4E98593 /* MemoryObjectIntrospection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MemoryObjectIntrospection.m; sourceTree = "<group>"; };
+		D51221CD52E5538DA168315EA7733651 /* Pods-PXLMemoryGraph_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PXLMemoryGraph_Example"; path = Pods_PXLMemoryGraph_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5602A8A3ECB3DB5CF49F1CF5C04704C /* Pods-PXLMemoryGraph_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXLMemoryGraph_Example-dummy.m"; sourceTree = "<group>"; };
+		D5B787DE8955130BFA58F916329F0358 /* PXLMemoryService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXLMemoryService.h; sourceTree = "<group>"; };
+		DE3DC2AF4854CDB695F95214CC6D5FA4 /* MemoryValidator.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MemoryValidator.c; sourceTree = "<group>"; };
+		ED2FAC6AAE59E2D7386DB57AFD4EB215 /* PXLMemoryService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXLMemoryService.m; sourceTree = "<group>"; };
+		EE788828ECFE410D19B53EC958619C71 /* Graph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		F261F0D3141BFEA6C908FAD2EF1EA480 /* Pods-PXLMemoryGraph_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXLMemoryGraph_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F9C88732DBB7A278F33BD6DB87B34723 /* Pods-PXLMemoryGraph_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXLMemoryGraph_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FAAD0C3CDCB3C8D900B022C4B3A60AA6 /* IntrospectionFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IntrospectionFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942D40E1C23F16ED9BF6C73A3887CE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4254176D5E9ECF49323B0BF0AE0163E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7018CAA1DDDA1A7CC32BD3E75DD6581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5940F0928EB39B015313603154E024E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F0272F7DB25D92F5F0C1D7E6184EF4 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C7C7D3BE37EBDBC867C5BDB7A209827D /* NodeProtocol.h */,
+				D5B787DE8955130BFA58F916329F0358 /* PXLMemoryService.h */,
+			);
+			name = Public;
+			path = PXLMemoryGraph/Sources/Public;
+			sourceTree = "<group>";
+		};
+		2DF6C779B27DCD197C0072C537064808 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87B57B400DAAD817882CAD9EAD696346 /* MemoryObject.h */,
+				67EDEE5D58A06EE4ACE6D564F7068742 /* MemoryObject.m */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38255722060C7E9800A59765F4E650D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90D451FC46284ADB44A0D6E06433FC4C /* PXLMemoryGraph.modulemap */,
+				A5ECDB6E8D85C4EA196BB1FC99C41F28 /* PXLMemoryGraph-dummy.m */,
+				4B3FB442E372FED61543EB3219D2D9BA /* PXLMemoryGraph-Info.plist */,
+				C62C156971894CEAF3A31BC4747CF539 /* PXLMemoryGraph-prefix.pch */,
+				64EDC074C5967103CC6C153E7B41640F /* PXLMemoryGraph-umbrella.h */,
+				3CC92F2A700AD51BE3B0A4A6E34B2EE5 /* PXLMemoryGraph.debug.xcconfig */,
+				2E0EE436DC06F0400D44C3123AF7FAA7 /* PXLMemoryGraph.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PXLMemoryGraph";
+			sourceTree = "<group>";
+		};
+		48DF6A70CBB7033310E7BD82AA93C29A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				20A8A3FF49C991B8FDCCE3DDBE143F22 /* LICENSE */,
+				714D5FD1285944DB746EB34B36BBD8C3 /* PXLMemoryGraph.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6CAF205187C5D9027DA7CAD0D6817DD0 /* ObjectiveC Introspection */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D44AF98E5D11AA561F4BE85D83CC9 /* ObjcIntrospection.h */,
+				AF872D575AA5DE4080F95461E193AC89 /* ObjcIntrospection.m */,
+			);
+			name = "ObjectiveC Introspection";
+			path = "ObjectiveC Introspection";
+			sourceTree = "<group>";
+		};
+		6CBF5170049ABE409568F6BA7D310828 /* PXLMemoryGraph */ = {
+			isa = PBXGroup;
+			children = (
+				E89CCFB2134283A0DDB62F33427E6931 /* Internal */,
+				48DF6A70CBB7033310E7BD82AA93C29A /* Pod */,
+				23F0272F7DB25D92F5F0C1D7E6184EF4 /* Public */,
+				38255722060C7E9800A59765F4E650D6 /* Support Files */,
+			);
+			name = PXLMemoryGraph;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6CDABE3D3BB766F73969CA8806722C8D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F288A7CDEB523151C952D1197DBFEFB /* IntrospectionFactory.h */,
+				FAAD0C3CDCB3C8D900B022C4B3A60AA6 /* IntrospectionFactory.m */,
+				65A735B622FD9275ADDF693F6A8D06C2 /* NSObject+Collection.h */,
+				24EF9FF5F74B2836B80B1EF9222B378C /* NSObject+Collection.m */,
+			);
+			name = Utils;
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A141352EA37CF3569AF9F2B6ADA3FA3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CBF5170049ABE409568F6BA7D310828 /* PXLMemoryGraph */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8DD5D061F370A9D28C2910A857C270C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D51221CD52E5538DA168315EA7733651 /* Pods-PXLMemoryGraph_Example */,
+				5B604D4DA669FAA7E42F2A6AD13F14BA /* PXLMemoryGraph */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4ADCD6B8319ED170836FCCD7CDB3E9F /* Pods-PXLMemoryGraph_Example */ = {
+			isa = PBXGroup;
+			children = (
+				91B707C1FBC07F1085D9B2ED43549167 /* Pods-PXLMemoryGraph_Example.modulemap */,
+				8925E2713F520351CC6B350F03A1B49F /* Pods-PXLMemoryGraph_Example-acknowledgements.markdown */,
+				F9C88732DBB7A278F33BD6DB87B34723 /* Pods-PXLMemoryGraph_Example-acknowledgements.plist */,
+				D5602A8A3ECB3DB5CF49F1CF5C04704C /* Pods-PXLMemoryGraph_Example-dummy.m */,
+				F261F0D3141BFEA6C908FAD2EF1EA480 /* Pods-PXLMemoryGraph_Example-frameworks.sh */,
+				661B58200B0C57842416E768AE022855 /* Pods-PXLMemoryGraph_Example-Info.plist */,
+				1432849D7A3AA117D77FEC09341043C1 /* Pods-PXLMemoryGraph_Example-umbrella.h */,
+				BAC595C41F643FD573E89F1F608458FB /* Pods-PXLMemoryGraph_Example.debug.xcconfig */,
+				99F9D828FA89648735295AB16D33D389 /* Pods-PXLMemoryGraph_Example.release.xcconfig */,
+			);
+			name = "Pods-PXLMemoryGraph_Example";
+			path = "Target Support Files/Pods-PXLMemoryGraph_Example";
+			sourceTree = "<group>";
+		};
+		CB565ED350AFF59AF969D6ED1B644329 /* Data structures */ = {
+			isa = PBXGroup;
+			children = (
+				EE788828ECFE410D19B53EC958619C71 /* Graph.h */,
+				19859233ED5A3A5AB41EC1BCB795EE4C /* Graph.m */,
+				A4EAEC5876E7F72AB6615BEE0AE2F6E6 /* NodeContainer.h */,
+				4708E204B25848FACDDB487FB8985891 /* NodeContainer.m */,
+			);
+			name = "Data structures";
+			path = "Data structures";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8A141352EA37CF3569AF9F2B6ADA3FA3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8DD5D061F370A9D28C2910A857C270C6 /* Products */,
+				EB0D3CD0C9D51C3D7ADA4BFA921C298D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E81F79754F0EE87DF5257B6A15E0E74C /* Swift Introspection */ = {
+			isa = PBXGroup;
+			children = (
+				1E98A9973184197B2C5085C1A0305193 /* SwiftIntrospection.h */,
+				45202E307D8E0EDD6F0A2C9FC22857F8 /* SwiftIntrospection.m */,
+			);
+			name = "Swift Introspection";
+			path = "Swift Introspection";
+			sourceTree = "<group>";
+		};
+		E89CCFB2134283A0DDB62F33427E6931 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				CB565ED350AFF59AF969D6ED1B644329 /* Data structures */,
+				2DF6C779B27DCD197C0072C537064808 /* Models */,
+				EF3C2A6E58FB2ADAAD2691CBE28B22D0 /* Services */,
+				6CDABE3D3BB766F73969CA8806722C8D /* Utils */,
+			);
+			name = Internal;
+			path = PXLMemoryGraph/Sources/Internal;
+			sourceTree = "<group>";
+		};
+		EB0D3CD0C9D51C3D7ADA4BFA921C298D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4ADCD6B8319ED170836FCCD7CDB3E9F /* Pods-PXLMemoryGraph_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF3C2A6E58FB2ADAAD2691CBE28B22D0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				93C2840BB02E0A713159639D2F29315E /* Inspectable.h */,
+				0BE215D44302D43D9CADB7E8F06F5842 /* IntrospectionResult.h */,
+				2BD6940CECAC4AF1B3BA9E4C3F023BAE /* IntrospectionResult.m */,
+				BFF60086D8BD43233E7EF86F0F278E8E /* IntrospectionResult+Private.h */,
+				0B749F5D5FCAB3E30795CECD2D1CB982 /* MemoryObjectIntrospection.h */,
+				D07E7594277ED20E44A646D2D4E98593 /* MemoryObjectIntrospection.m */,
+				B253796852F664AE84106E62184A7293 /* MemoryObjectRequest.h */,
+				63859CA95F245A6457929FBEC7D5692B /* MemoryObjectRequest.m */,
+				35E550D719D180ECB265B4E921F51ECA /* MemoryReader.h */,
+				B4DF9DD8D2F9F0221E22FD8C3AD0C443 /* MemoryReader.m */,
+				DE3DC2AF4854CDB695F95214CC6D5FA4 /* MemoryValidator.c */,
+				498DA3E689AA086B17B88E26711AB6D0 /* MemoryValidator.h */,
+				ED2FAC6AAE59E2D7386DB57AFD4EB215 /* PXLMemoryService.m */,
+				6CAF205187C5D9027DA7CAD0D6817DD0 /* ObjectiveC Introspection */,
+				E81F79754F0EE87DF5257B6A15E0E74C /* Swift Introspection */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B28D91FA1B1408F963656646026572E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DB558CCE2335A641B5E498EB0D369D /* Pods-PXLMemoryGraph_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB485658356328169D581B7A2087DEFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B050A81B54E4AC9D6148A2455A09CB9C /* Graph.h in Headers */,
+				940AF9EF6F1F3CDBE68E1151B192AC11 /* Inspectable.h in Headers */,
+				0CEE2077D1D3B98CCE68743B3C73232D /* IntrospectionFactory.h in Headers */,
+				B014CB8B3CF6DB40CBC655BECA9765CC /* IntrospectionResult.h in Headers */,
+				FC266DC2E684226F6DE39016BE4430CE /* IntrospectionResult+Private.h in Headers */,
+				85A58755C3D88C115E6B2E15A8F8186F /* MemoryObject.h in Headers */,
+				61DF23D08322BAF998C64582677DA06F /* MemoryObjectIntrospection.h in Headers */,
+				BAB524A1AE403A3FDDD2C33CCF45302F /* MemoryObjectRequest.h in Headers */,
+				6A8550326E88A6F4DEFD27FB3A1663F0 /* MemoryReader.h in Headers */,
+				E1476FDCD4BC66B4A69CC1487B0ACF74 /* MemoryValidator.h in Headers */,
+				3963B4B52BCCCB1BD5110C2FCFF62E2C /* NodeContainer.h in Headers */,
+				D7DE890574316502B82DC9F9FE5688A0 /* NodeProtocol.h in Headers */,
+				7A6343B29561FD9E6DA5F4B40CCC55BF /* NSObject+Collection.h in Headers */,
+				84C8894E3786E9752D82D48F04999C26 /* ObjcIntrospection.h in Headers */,
+				93FFF72F226A1DCE495D8CAC47082524 /* PXLMemoryGraph-umbrella.h in Headers */,
+				17CDDD10D9AF98E28B6B879338CCCE70 /* PXLMemoryService.h in Headers */,
+				AC0966E30E852CC88A31AE46618BE434 /* SwiftIntrospection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A63B7172B7BA4C2D79720A72F610F90D /* PXLMemoryGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0BDB35500E0046FECFC10573249BB5 /* Build configuration list for PBXNativeTarget "PXLMemoryGraph" */;
+			buildPhases = (
+				EB485658356328169D581B7A2087DEFA /* Headers */,
+				A9FEC927286AFF901999044B78FDB6AE /* Sources */,
+				942D40E1C23F16ED9BF6C73A3887CE6A /* Frameworks */,
+				3DEF64A8A4FE4C4B339A40BC891AC90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXLMemoryGraph;
+			productName = PXLMemoryGraph;
+			productReference = 5B604D4DA669FAA7E42F2A6AD13F14BA /* PXLMemoryGraph */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0A824AF8E75B2C391DE719CECD5151D /* Pods-PXLMemoryGraph_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 679A72C62C2B2DF26AE594061D341E3A /* Build configuration list for PBXNativeTarget "Pods-PXLMemoryGraph_Example" */;
+			buildPhases = (
+				B28D91FA1B1408F963656646026572E9 /* Headers */,
+				F06C161CF5DE3157006575F86C7D9757 /* Sources */,
+				D7018CAA1DDDA1A7CC32BD3E75DD6581 /* Frameworks */,
+				97F9C4042524B3E04825FAC39BEF3D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33A09C6D11ED3B0361D5AEDC07F80A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PXLMemoryGraph_Example";
+			productName = Pods_PXLMemoryGraph_Example;
+			productReference = D51221CD52E5538DA168315EA7733651 /* Pods-PXLMemoryGraph_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8DD5D061F370A9D28C2910A857C270C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0A824AF8E75B2C391DE719CECD5151D /* Pods-PXLMemoryGraph_Example */,
+				A63B7172B7BA4C2D79720A72F610F90D /* PXLMemoryGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DEF64A8A4FE4C4B339A40BC891AC90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F9C4042524B3E04825FAC39BEF3D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9FEC927286AFF901999044B78FDB6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4584AC0934F808D16DD95106A5FF63D4 /* Graph.m in Sources */,
+				B164AB9ED478E7EF0D1982B02843FAAC /* IntrospectionFactory.m in Sources */,
+				EB66A45CDCB1F593835CBCAB96051B39 /* IntrospectionResult.m in Sources */,
+				C133F920ABC14AE37697358E27BAE53C /* MemoryObject.m in Sources */,
+				8CD1BEF250B0CEDDBCEC39441D3B68FF /* MemoryObjectIntrospection.m in Sources */,
+				939D9E0C0FACD84DF1C2AA429829ADFC /* MemoryObjectRequest.m in Sources */,
+				C05DD148E20AAFACEC19AB273EAC20FA /* MemoryReader.m in Sources */,
+				60C78863B0E6AF1AD57B6CFABD41EC33 /* MemoryValidator.c in Sources */,
+				D211C172C678BC6B9F247E7B576CB926 /* NodeContainer.m in Sources */,
+				34AB68AB37C28173737828483E2B5F50 /* NSObject+Collection.m in Sources */,
+				7B0AEAD63366297FD0A4EECED7AF5CF0 /* ObjcIntrospection.m in Sources */,
+				399BCA27697D0418BF557C6DC7B1FE1C /* PXLMemoryGraph-dummy.m in Sources */,
+				9C6AA613DFA434CDD3E6593F0AB41B1F /* PXLMemoryService.m in Sources */,
+				4890DE66C3AB062D86071E40F0895673 /* SwiftIntrospection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06C161CF5DE3157006575F86C7D9757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D4541AACE27163E9A34B0A329F382B /* Pods-PXLMemoryGraph_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33A09C6D11ED3B0361D5AEDC07F80A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXLMemoryGraph;
+			target = A63B7172B7BA4C2D79720A72F610F90D /* PXLMemoryGraph */;
+			targetProxy = 75CF6261A9057788976CBADA9D3D5284 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ABEEB29837490E94B688DBF46683902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0EE436DC06F0400D44C3123AF7FAA7 /* PXLMemoryGraph.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/PXLMemoryGraph/PXLMemoryGraph-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/PXLMemoryGraph/PXLMemoryGraph-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PXLMemoryGraph/PXLMemoryGraph.modulemap";
+				PRODUCT_MODULE_NAME = PXLMemoryGraph;
+				PRODUCT_NAME = PXLMemoryGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65C6863E1CB50A6AF3656B07328F065E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F9D828FA89648735295AB16D33D389 /* Pods-PXLMemoryGraph_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXLMemoryGraph_Example/Pods-PXLMemoryGraph_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXLMemoryGraph_Example/Pods-PXLMemoryGraph_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB0739B351003716A58AAE985FB3A5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC595C41F643FD573E89F1F608458FB /* Pods-PXLMemoryGraph_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PXLMemoryGraph_Example/Pods-PXLMemoryGraph_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXLMemoryGraph_Example/Pods-PXLMemoryGraph_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1A29C1930C99456B1FF7CE9CD3ADAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC92F2A700AD51BE3B0A4A6E34B2EE5 /* PXLMemoryGraph.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/PXLMemoryGraph/PXLMemoryGraph-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/PXLMemoryGraph/PXLMemoryGraph-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PXLMemoryGraph/PXLMemoryGraph.modulemap";
+				PRODUCT_MODULE_NAME = PXLMemoryGraph;
+				PRODUCT_NAME = PXLMemoryGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		679A72C62C2B2DF26AE594061D341E3A /* Build configuration list for PBXNativeTarget "Pods-PXLMemoryGraph_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0739B351003716A58AAE985FB3A5D2 /* Debug */,
+				65C6863E1CB50A6AF3656B07328F065E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0BDB35500E0046FECFC10573249BB5 /* Build configuration list for PBXNativeTarget "PXLMemoryGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A29C1930C99456B1FF7CE9CD3ADAA9 /* Debug */,
+				0ABEEB29837490E94B688DBF46683902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
