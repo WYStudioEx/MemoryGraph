@@ -33,13 +33,20 @@
         return result;
     }
     
+    
     if (propertyCount == 0) {
+        if ([memoryObject.className hasPrefix:@"_UIBackgroundTaskInfo"] ||
+            [memoryObject.className hasPrefix:@"RBS"]) {
+            return result;
+        }
+        
         [retainedObjects addObjectsFromArray:[self.memoryObjectRequest memoryObjectsFromValue:(id)memoryObject.memoryAddress ivar:ivar]];
     } else {
         for (int i = 0; i < propertyCount; i++) {
             objc_property_t property = properties[i];
             if ([self ivar:ivar belongsToProperty:property] &&
-                [self isAllowedProperty:property]) {
+                [self isAllowedProperty:property] &&
+                NO == [memoryObject.className hasPrefix:@"RBS"]) {
                 [retainedObjects addObjectsFromArray:[self.memoryObjectRequest memoryObjectsFromValue:(id)memoryObject.memoryAddress ivar:ivar]];
             }
         }
